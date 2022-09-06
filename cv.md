@@ -23,8 +23,7 @@
 
 ## Code example
 
-    ```
-       <script>
+      ```<script>
         let tab = document.createElement('table');     
         let tb = document.createElement('tbody');       
         let n = 1, i, j;
@@ -45,11 +44,15 @@
         document.body.append(tab);  
         setTimeout(function(){tb.remove()}, 8000);
         setTimeout(function(){tab.remove()}, 10000);
-        </script>
-    ```
+        </script>```
+    
 
 ## Work experience:
-    August 2011 - March 2022 - JSC "Mostostroy" branch of MSU6 - master of construction and installation works, foreman, job superintendant. Main responsibilities: management of the construction process, negotiations with the customer, general contractor, subcontractor, supervisory authorities, keeping records of working hours, materials, machines and mechanisms, etc.
+    August 2011 - March 2022 - JSC "Mostostroy" branch of MSU6 - master of construction
+     and installation works, foreman, job superintendant. Main responsibilities: 
+     management of the construction process, negotiations with the customer, general 
+     contractor, subcontractor, supervisory authorities, keeping records of working 
+     hours, materials, machines and mechanisms, etc.
 
 ## My work example
 
