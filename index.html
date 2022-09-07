@@ -5,12 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-
-    <div class="photo">
+  <div class="container">
+      <div class="photo">
         <img src="img/20200511_204921.jpg" alt="">
+      </div>
+      <div class="name">
+        <h1>Name:<span>Andrei Zaretski</span></h1>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="contacts">
+        <h1>Contacts</h1>
+        <ul>
+            <li class="list">
+                <b>Place of residence:</b><span>  city of Minsk, Frunzensky district</span>
+            </li>
+            <li class="list">
+                <b>phone number:</b><span> +375297758106</span>
+            </li>
+            <li class="list">
+                <b>Emeil:</b><span><a href="zaretskiag@gmail.com" target="_blank">  zaretskiag@gmail.com</a></span>
+            </li>
+            <li class="list">
+                <b>GitHub:</b><span><a href="https://github.com/AndreiZaretski" target="_blank">  https://github.com/AndreiZaretski</a></span>
+            </li>
+            <li class="list">
+                <b>Linkedin:</b><span><a href="https://www.linkedin.com/in/AndreiZaretski" target="_blank">  https://www.linkedin.com/in/AndreiZaretski</a></span>
+            </li>
+            <li class="list">
+                <b>VK:</b><span><a href="https://vk.com/id40244823" target="_blank">  https://vk.com/id40244823</a></span>
+            </li>
+            <li class="list">
+                <b>Discord RS-school nickname:</b><span> Andrei Zaretski#8487</span>
+            </li>
+        </ul>
     </div>
-    
+  </div>  <!--Container-->
+
+  <div class="container">
+    <div class="about">
+        <h1>About me</h1>
+        <ul>
+            <li class="list">
+                <b>Date of Birth:</b><span>  11.05.1988</span>
+            </li>
+            <li class="list">
+                <b>Career objective:</b><span>  Junior Front-end Developer</span>
+            </li>
+            <li class="list">
+                <b>Objectives:</b><span>  New field of activity, development, training.</span>
+            </li>
+            <li class="list"><b>Scills:</b>
+                <ul>
+                <li class="list1">
+                    <b>Hard skills:</b><span>  HTML, CSS, JavaScript, Angular, HTML5-API, Github, git, DOM, wordpress.</span>
+                </li>
+                <li class="list1">
+                    <b>Soft skills:</b><span>  ability to learn, time planning, ability to work in a team, attention to detail, stress resistance.</span>
+                </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+   </div>  <!--Container-->
+
+   <div class="container">
+    <div class="code">
+        <h1>Code example</h1>
+        <pre>
+            
+                let tab = document.createElement('table');     
+                let tb = document.createElement('tbody');       
+                let n = 1, i, j;
+                let col = 6;
+                let row = 8;
+                for (i=1; i<=row; i++) {
+                    let tr = document.createElement('tr');
+                    setTimeout(function(){tr.remove()}, 6000);
+                    for (j=1; j<=col; j++) {
+                    let td1 = document.createElement('td');
+                    tr.appendChild(td1); 
+                    td1.innerHTML = `Ячейка ${n++}`; 
+                   setTimeout(function(){td1.innerHTML=""}, 2000); 
+                    setTimeout(function(){td1.remove()}, 4000);
+                }
+                tb.appendChild(tr); }
+                tab.append(tb);
+                document.body.append(tab);  
+                setTimeout(function(){tb.remove()}, 8000);
+                setTimeout(function(){tab.remove()}, 10000);
+                
+        </pre>
+    </div>
+   </div> <!--Container-->
+
+   <div class="container">
+    <div class="experience">
+        <h1>Work experience</h1>
+        <ul>
+            <li>
+                August 2011 - March 2022 - JSC "Mostostroy" branch of MSU6 - master of construction    and installation works, foreman, job superintendant. Main responsibilities: management of the construction process, negotiations with the customer, general contractor, subcontractor, supervisory authorities, keeping records of working hours, materials,machines and mechanisms, etc.
+            </li>
+        </ul>
+    </div>
+   </div>  <!--Container-->
+
+   <div class="container">
+    <div class="mywork">
+        <h1>My work example</h1>
+        <ul>
+            <li class="list">
+               <a href="https://andreizaretski.github.io/mySite/" target="_blank">https://andreizaretski.github.io/mySite/</a>
+            </li>
+    </ul>
+    </div>
+   </div>  <!--Container-->
+
+   <div class="container">
+    <div class="educatin">
+        <h1>Education</h1>
+        <ul>
+            <li class="list">
+                BNTU, faculty of transport communications “Bridges, transport tunnels and subways”, “Construction”, university graduation years  2011, 2012.
+            </li>
+            <li class="list">
+                BNTU, Faculty of Civil Engineering, postgraduate study “Building materials and products”, year of graduation 2017.
+            </li>
+            <li class="list">
+                Belhard - “Website development basics”, “Modern Front-End with  JavaScript and HTML5”- 2022.
+            </li>
+        </ul>
+    </div>
+   </div>  <!--Container-->
+
+   <div class="container">
+    <div class="language">
+        <h1>Foreign language skills</h1>
+        <ul>
+            <li class="list">
+                <b>English:</b><span>  A1, but I'm learning it at the moment;</span>
+            </li>
+            <li class="list">
+                <b>Italian:</b><span>  A2</span>
+            </li>
+            <li class="list">
+                <b>French:</b><span>  A1</span>
+            </li>
+        </ul>
+    </div>
+   </div> <!--Container-->
+
+   <footer class="footer">
+    <hr>
+   2022 All right reserved
+   </footer>
+
+
+       
 </body>
 </html>

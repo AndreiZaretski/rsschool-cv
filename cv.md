@@ -19,7 +19,7 @@
 
    * __Scills:__
      + __Hard skills:__ _HTML, CSS, JavaScript, Angular, HTML5-API, Github, git, DOM, wordpress._
-     + __Soft skills:__ ability to learn, time planning, ability to work in a team, attention to detail, stress resistance.
+     + __Soft skills:__ _ability to learn, time planning, ability to work in a team, attention to detail, stress resistance._
 
 
 ## Code example
