@@ -77,16 +77,16 @@
     <div class="code">
         <h1>Code example</h1>
         <pre>
-            
+            <code>
                 let tab = document.createElement('table');     
                 let tb = document.createElement('tbody');       
                 let n = 1, i, j;
                 let col = 6;
                 let row = 8;
-                for (i=1; i<=row; i++) {
+                for (i=1; i= row; i++) {
                     let tr = document.createElement('tr');
                     setTimeout(function(){tr.remove()}, 6000);
-                    for (j=1; j<=col; j++) {
+                    for (j=1; j =col; j++) {
                     let td1 = document.createElement('td');
                     tr.appendChild(td1); 
                     td1.innerHTML = `Ячейка ${n++}`; 
@@ -98,6 +98,7 @@
                 document.body.append(tab);  
                 setTimeout(function(){tb.remove()}, 8000);
                 setTimeout(function(){tab.remove()}, 10000);
+            </code>
                 
         </pre>
     </div>
