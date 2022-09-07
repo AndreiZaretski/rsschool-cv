@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+img {
+    width: 60%;
+    display: block;
+    margin: 0 auto; 
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.footer {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 0 auto;
+}
