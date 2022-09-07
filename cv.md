@@ -4,9 +4,10 @@
 
   * __Place of residence:__ _city of Minsk, Frunzensky district_                
   * __phone number:__ _+375297758106_                                        
-  * __Emeil:__ _(zaretskiag@gmail.com)_                            
-  * __GitHub:__ _(https://github.com/AndreiZaretski)_                               
+  * __Emeil:__ _[zaretskiag@gmail.com](zaretskiag@gmail.com)_                            
+  * __GitHub:__ _[https://github.com/AndreiZaretski](https://github.com/AndreiZaretski)_                               
   * __Linkedin:__  _[https://www.linkedin.com/in/AndreiZaretski/](https://www.linkedin.com/in/AndreiZaretski/)_ 
+  * __VK:__ _[https://vk.com/id40244823](https://vk.com/id40244823)_
   * __Discord RS-school nickname:__ _Andrei Zaretski#8487_
 
 ## About me
@@ -49,15 +50,11 @@
 
 ## Work experience:
 
-    * August 2011 - March 2022 - JSC "Mostostroy" branch of MSU6 - master of construction
-    and installation works, foreman, job superintendant. Main responsibilities:  
-    management of the construction process, negotiations with the customer, general 
-    contractor, subcontractor, supervisory authorities, keeping records of working 
-    hours, materials, machines and mechanisms, etc.
+* August 2011 - March 2022 - JSC "Mostostroy" branch of MSU6 - master of construction    and installation works, foreman, job superintendant. Main responsibilities: management of the construction process, negotiations with the customer, general contractor, subcontractor, supervisory authorities, keeping records of working hours, materials,machines and mechanisms, etc.
 
 ## My work example
 
-  [](https://andreizaretski.github.io/mySite/)
+  [https://andreizaretski.github.io/mySite/](https://andreizaretski.github.io/mySite/)
 
 
 ##  Education:
